@@ -1,0 +1,20 @@
+{
+  "displayName": "Fluctuating hydrodynamics for ionic liquids",
+  "description":
+    "We present a mean-field fluctuating hydrodynamics (FHD) method for studying the structural and transport properties of ionic liquids in bulk and near electrified surfaces. The free energy of the system consists of two competing terms: (1) a Landau–Lifshitz functional that models the spontaneous separation of the ionic groups, and (2) the standard mean-field electrostatic interaction between the ions in the liquid. The numerical approach used to solve the resulting FHD-Poisson equations is very efficient and models thermal fluctuations with remarkable accuracy. Such density fluctuations are sufficiently strong to excite the experimentally observed spontaneous formation of liquid nano-domains. Statistical analysis of our simulations provides quantitative information about the properties of ionic liquids, such as the mixing quality, stability, and the size of the nano-domains. Our model, thus, can be adequately parameterized by directly comparing our prediction with experimental measurements and all-atom simulations. Conclusively, this work can serve as a practical mathematical tool for testing various theories and designing more efficient mixtures of ionic liquids.",
+  "tryMsg": "Play at",
+  "codeMsg": "Check out the code",
+  "createdWith": "Created with JavaScript & jQuery",
+  "heroku_url": "https://connect4-spiced.herokuapp.com",
+  "github_url": "https://github.com/patrinoua/connect4",
+  "comment": "",
+  "comment_link": "",
+  "comment_url": "",
+
+  "displayNameGr": "Σκορ 4",
+  "descriptionGr": "Το γνωστό παιχνίδι με ωραία γραφικά",
+  "tryMsgGr": "Παίξτε εδώ",
+  "codeMsgGr": "Δείτε τον κώδικα",
+  "createdWithGr": "Δημιουργήθηκε με χρήση JavaScript & jQuery",
+  "commentGr": ""
+}

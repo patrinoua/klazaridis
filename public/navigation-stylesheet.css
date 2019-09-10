@@ -1,0 +1,122 @@
+#header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 4px 18px rgba(0, 0, 0, 0.9);
+}
+
+#navigation {
+  width: 100%;
+  height: 13vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigationBar {
+  height: 11vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vh;
+  justify-content: space-between;
+}
+.navigationName {
+  font-size: 2.2em;
+}
+.menuItems {
+  display: flex;
+  align-items: center;
+}
+.menuItem {
+  color: rgba(255, 255, 255, 0.8);
+  padding-right: 2vh;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.languageItem {
+  padding: 1vh;
+}
+.menuItem:hover {
+  cursor: pointer;
+}
+.menuItem:hover,
+.menuIcon:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.menuIcon {
+  opacity: 0.8;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0.5vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuIcon img {
+  width: 15px;
+  height: 15px;
+}
+
+.borderLine {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 13vh;
+  width: 1px;
+  padding: 0;
+  margin: 10px;
+}
+.linkedinIcon {
+  transform: translate(0, -6%);
+}
+.linkedinIcon:hover {
+  background-color: #2f76b0;
+}
+.githubIcon:hover {
+  background-color: #999;
+}
+.coverImage {
+  background-size: cover;
+  width: 100%;
+}
+#aboutMeSection {
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+  /* color: white; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slideshow_caption {
+  font-family: 'Quattrocento', 'Helvetica', serif;
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  /* padding: 7vh 2vh; */
+}
+.slideshow_caption h2 {
+  font-family: 'Quattrocento', 'Helvetica', serif;
+  font-size: 4em;
+  font-weight: 200;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #837366;
+}
+.headline2 {
+  font-family: 'Quattrocento', 'Helvetica', serif;
+  font-size: 3em;
+  font-weight: 200;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #837366;
+  margin: 150px;
+}
