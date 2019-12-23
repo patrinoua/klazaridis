@@ -1,91 +1,129 @@
 <!doctype html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <meta name="keywords" content=" angeliki patrinou, web developer, full stack developer, web developer, programmatistis,
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="keywords" content=" angeliki patrinou, web developer, full stack developer, web developer, programmatistis,
         website for professional, portfolio website, ιστοσελίδα για επαγγελματία,
         istoselida, kataskeui istoselidas, προγραμματιστής, ιστοσελίδα, κατασκευή ιστοσελίδας,
         δημιουργία ιστοσελίδας, δημιουργία e-shop ">
-        <meta property="og:image" content="assets/angeliki-mik.png" />
-        <meta property="og:description" content="Angeliki Patrinou | Full Stack Developer" />
-        <meta property="og:url"content="http://angelikipatrinou.com" />
-        <meta property="og:title" content="Angeliki Patrinou" />
-        <link rel="stylesheet" href="stylesheet.css">
-        <link rel="stylesheet" href="navigation-stylesheet.css">
-        <link rel="stylesheet" href="responsive-stylesheet.css">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-        <link rel="icon" type="image/png" href="assets/blackdot.png" sizes="16x16">
-        <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <title>Konstantinos Lazaridis</title>
-    </head>
-    <style>
-        *{
-            font-family: {{content.myFont}}
-        }
-    </style>
-    <main>
-      <div id="aboutMeSection">
-          <div class="container">
-              <div class="slideshow_caption">
-                  <h2>{{content.title}}</h2>
-              </div>
+  <meta property="og:image" content="assets/angeliki-mik.png" />
+  <meta property="og:description" content="Angeliki Patrinou | Full Stack Developer" />
+  <meta property="og:url" content="http://angelikipatrinou.com" />
+  <meta property="og:title" content="Angeliki Patrinou" />
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet-kwstis.css">
+  <link rel="stylesheet" href="navigation-stylesheet.css">
+  <link rel="stylesheet" href="responsive-stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/blackdot.png" sizes="16x16">
+  <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Konstantinos Lazaridis</title>
+</head>
+<style>
+  * {
+    font-family: {
+        {
+        content.myFont
+      }
+    }
+  }
+</style>
+<main>
+  <div class="k-header">
+    <div class="k-background-image-container"></div>
+    <div class="k-name-and-image-container">
+      <div class="k-image-container-left">
+        <div class="k-image-container-left-up">
+          <div class="k-name k-name-up">
+            Konstantinos
           </div>
+        </div>
+        <div class="k-image-container-left-down">
+          <div class="k-name k-name-down">
+            Lazaridis
+          </div>
+        </div>
       </div>
+      <div class="k-image-container-right">
+        <div class="k-profil-photo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="k-main">
+    <div class="k-description">
+      Fluid Dynamics PhD Candidate with a focus on Interface Phenomena for coupled Moving Boundaries problems. I create
+      solutions in Mathematical Physics by utilizing my strong mathematical foundations.  My current interests are
+      Mathematical formulation of Physical Processes, Multiscale Models and Computational Methods and Materials
+      Processing and Service.
+    </div>
+  </div>
+  {{!-- <div id="aboutMeSection">
+    <div class="container">
+      <div class="slideshow_caption">
+        <h2>{{content.title}}</h2>
+      </div>
+    </div>
+  </div>
 
-      <div class="aboutAngelikiBlock">
-        <div class="aboutAngelikiContent">
-          <div id="circle">
-            <img src="assets/kostis-mik.png" id="profilePic" class="aboutAngelikiPictureImg"/>
-          </div>
-          <div id="square" class="regularText">
-              <div class="flexDirCol">
-                {{content.personalDescription}}
-                <!-- <div class="cvArea">
+  <div class="aboutAngelikiBlock">
+    <div class="aboutAngelikiContent">
+      <div id="circle">
+        <img src="assets/kostis-mik.png" id="profilePic" class="aboutAngelikiPictureImg" />
+      </div>
+      <div id="square" class="regularText">
+        <div class="flexDirCol">
+          {{content.personalDescription}}
+          <!-- <div class="cvArea">
                   <a href="https://www.dropbox.com/sh/3xwg2e6zvd1gwxv/AACbDtoaAVl6VvX4dqS_dL6Ca?dl=0" target="_blank">{{content.shortCv}}</a>
                 </div> -->
-            </div>
-          </div>
         </div>
       </div>
-      <div id="projectsBlock">
-        <div>
-          <img src="assets/background.jpg" class="coverImage"/>
-        </div>
-        <div class="headline2" style="box-shadow: none">
-            Publications
-        </div>
-          {{{body}}}
+    </div>
+  </div>
+  <div id="projectsBlock">
+    <div>
+      <img src="assets/background.jpg" class="coverImage" />
+    </div>
+    <div class="headline2" style="box-shadow: none">
+      Publications
+    </div>
+    {{{body}}}
+  </div>--}}
+  <div id="contactBlock">
+    <div class="contactForm">
+      <div class="contactTitle">
+        {{content.contact}}
       </div>
-      <div id="contactBlock">
-          <div class="contactForm">
-              <div class="contactTitle">
-                  {{content.contact}}
-              </div>
-              <div> klazaridhs@gmail.com </div>
-              <div class="inARow">
-                <a class="bigIcon githubIcon" href="https://www.linkedin.com/in/konstantinos-lazaridis-05939869/" target="_blank"><img src="assets/linkedInn.png" /> </a>
-                <a class="bigIcon githubIcon" href="https://www.researchgate.net/profile/Konstantinos_Lazaridis2" target="_blank">
-                    <img src="assets/RG.png" />
-                </a>
-              </div>
-          </div>
+      <div> klazaridhs@gmail.com </div>
+      <div class="inARow">
+        <a class="bigIcon githubIcon" href="https://www.linkedin.com/in/konstantinos-lazaridis-05939869/"
+          target="_blank"><img src="assets/linkedInn.png" /> </a>
+        <a class="bigIcon githubIcon" href="https://www.researchgate.net/profile/Konstantinos_Lazaridis2"
+          target="_blank">
+          <img src="assets/RG.png" />
+        </a>
       </div>
-      <div id="footer">
-          <a href="https://angelikipatrinou.com" target="_blank">© 2019 Angeliki Patrinou </a>
-      </div>
-      <script>
-          $('.menuItem').click(function(e){
-              e.preventDefault();
-              let navigationTarget = '#'+e.target.href.split("#").pop();
-              let navigationTargetSelector=$(navigationTarget);
-              $('html, body').animate({
-                  scrollTop: $(navigationTarget).offset().top
-              }, "slow");
-          });
-      </script>
-    </main>
+    </div>
+  </div>
+  <div id="footer">
+    <a href="https://angelikipatrinou.com" target="_blank">© 2019 Angeliki Patrinou </a>
+  </div>
+  <script>
+    $('.menuItem').click(function (e) {
+      e.preventDefault();
+      let navigationTarget = '#' + e.target.href.split("#").pop();
+      let navigationTargetSelector = $(navigationTarget);
+      $('html, body').animate({
+        scrollTop: $(navigationTarget).offset().top
+      }, "slow");
+    });
+  </script>
+</main>
+
 </html>
