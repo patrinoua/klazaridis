@@ -63,14 +63,14 @@ app.get('/', function(req, res) {
   })
 })
 
-app.get('/gr', function(req, res) {
-  res.render('projectData', {
-    content: contentGr,
-    myProjectObjects: myProjectObjectsGr,
-    // projectsText:projectsTextGr,
-    layout: 'welcome'
-  })
-})
+// app.get('/gr', function(req, res) {
+//   res.render('projectData', {
+//     content: contentGr,
+//     myProjectObjects: myProjectObjectsGr,
+//     // projectsText:projectsTextGr,
+//     layout: 'welcome'
+//   })
+// })
 
 app.listen(process.env.PORT || 8080, () =>
   console.log(`port 8080 is listening`)

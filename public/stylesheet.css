@@ -209,6 +209,17 @@ a:visited .menuItem {
 .bigIcon img {
   width: 60px;
   height: 60px;
+  filter: sepia(1);
+}
+.linkedinIcon {
+  transform: translate(0, -6%);
+}
+.linkedinIcon:hover {
+  background-color: #2f76b0;
+}
+.githubIcon:hover {
+  transform: translateY(-2px);
+  /* background-color: #999; */
 }
 .publication {
   display: flex;
