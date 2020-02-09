@@ -130,7 +130,7 @@
     background-size: contain;
   }
   .projectInfoText {
-    padding: 17px 8px;
+    /* padding: 17px 8px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,6 +152,15 @@
     height: 40vh;
     width: 80%;
     margin-bottom: 0;
+  }
+  .headline2 {
+    margin: 0;
+  }
+  .publication .title {
+    margin-bottom: 0;
+    font-size: 1em;
+    font-size: 1.6em;
+    text-align: center;
   }
 }
 @media (max-width: 400px) {

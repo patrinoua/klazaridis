@@ -23,6 +23,7 @@ a:visited .menuItem {
   color: black;
   font-size: 1.2em;
   line-height: 1.6;
+  text-align: justify;
 }
 #aboutMeSection {
   width: 100%;
@@ -242,10 +243,7 @@ a:visited .menuItem {
   font-size: 2em;
   font-family: 'NexusSerif,Georgia,Times New Roman,Times,STIXGeneral,Cambria Math,Lucida Sans Unicode';
 }
-.publicationDescription {
-  font-size: 1.1em;
-  font-family: 'NexusSerif,Georgia,Times New Roman,Times,STIXGeneral,Cambria Math,Lucida Sans Unicode';
-}
+
 #footer {
   font-size: 0.9em;
   margin-top: -1px;
