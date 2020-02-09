@@ -142,6 +142,17 @@
   #footer {
     font-size: 0.8em;
   }
+  .k-image-container-right {
+    display: none;
+  }
+  .k-image-container-left {
+    margin-left: 20px;
+  }
+  .projectSectionImg {
+    height: 40vh;
+    width: 80%;
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 400px) {
   .regularText {
