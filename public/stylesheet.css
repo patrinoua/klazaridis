@@ -1,6 +1,9 @@
 * {
   margin: 0;
   font-family: Roboto, 'Quicksand', 'Arial Light', sans-serif;
+
+  font-family: 'NexusSerif,Georgia,Times New Roman,Times,STIXGeneral,Cambria Math,Lucida Sans Unicode';
+  filter: grayscale(0.1);
 }
 a {
   text-decoration: none;
@@ -114,9 +117,10 @@ a:visited .menuItem {
   height: 80vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center center;
   background-size: contain;
+  margin-bottom: 50px;
 }
 .triggeredAnimation {
   animation-name: example;
@@ -146,7 +150,7 @@ a:visited .menuItem {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 15vh;
+  margin-bottom: 50px;
 }
 .projectSectionText a {
   color: black;
@@ -160,6 +164,11 @@ a:visited .menuItem {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: justify;
+}
+.projectInfoTextPadding {
+  padding: 0 120px;
+  text-align: justify;
 }
 .projectInfoTextInline {
   padding: 20px;
@@ -186,6 +195,7 @@ a:visited .menuItem {
   background-size: cover;
   background-position-y: center;
   color: white;
+  margin-top: 50px;
 }
 .contactForm {
   height: 90%;
@@ -195,6 +205,7 @@ a:visited .menuItem {
   align-items: center;
   position: relative;
   justify-content: space-evenly;
+  color: white;
 }
 .inARow {
   display: flex;
@@ -226,14 +237,14 @@ a:visited .menuItem {
   justify-content: center;
 }
 .publication .title {
+  margin-top: 50px;
+  margin-bottom: 30px;
   font-size: 2em;
   font-family: 'NexusSerif,Georgia,Times New Roman,Times,STIXGeneral,Cambria Math,Lucida Sans Unicode';
-  color: #505050;
 }
 .publicationDescription {
   font-size: 1.1em;
   font-family: 'NexusSerif,Georgia,Times New Roman,Times,STIXGeneral,Cambria Math,Lucida Sans Unicode';
-  color: #505050;
 }
 #footer {
   font-size: 0.9em;

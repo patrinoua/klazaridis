@@ -65,6 +65,7 @@
   color: white;
 }
 .k-name-down {
+  color: black;
 }
 .k-image-container-right {
   width: 50%;
@@ -88,10 +89,8 @@
   margin-top: 50px;
 }
 .k-description {
-  /* padding-top: 70px; */
-  height: 300px;
-  /* background-color: grey; */
-  display: flex;
-  margin: 0 52px;
-  /* font-family: roboto; */
+  margin: 20px 6px 80px 6px;
+  text-align: justify;
+  font-size: 1.1em;
+  font-family: 'NexusSerif,Georgia,Times New Roman,Times,STIXGeneral,Cambria Math,Lucida Sans Unicode';
 }

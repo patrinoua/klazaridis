@@ -1,0 +1,4 @@
+{
+  "displayName": "Hole filling Problem",
+  "description": "Micrometeoroids and orbital debris' impacts may cause catastrophic consequences to space man-made objects. As a result, a micro-scale or a more prominent damage may be created on exposed surfaces. Physical aspects of repair scenarios are investigated to improve safety and durability of space vehicles and structures. Experimental results indicate that the cylindrical hole may or may not be filled by melted brazing alloy. Axial symmetric equilibrium configurations of liquid and their stability are the primary goals of the computational study. More specifically, we show under which conditions the surface intersects itself on its axis of symmetry (cylindrical singular point) so that the hole is filled with the liquid metal. The total energy is minimized towards local minima and the energy comparison among different equilibrium configurations determines the configuration with global minimum energy."
+}

@@ -6,7 +6,7 @@ exports.contentEn = {
   contact: 'Contact',
   detailedCv: 'Detailed CV',
   shortCv: 'My CV',
-  title: 'Kostantinos Lazaridis',
+  title: 'Kostis Lazaridis',
 
   personalDescription: `
   A highly motivated Ph.D. candidate in Mechanical Engineering specialized in Fluid Dynamics with a
@@ -20,24 +20,3 @@ exports.contentEn = {
 
   myFont: 'Quicksand'
 }
-// exports.contentGr = {
-//   name: 'Κωστής Λαζαρίδης',
-
-//   about: 'Σχετικά',
-//   work: 'Πορτφόλιο',
-//   contact: 'Επικοινωνία',
-//   detailedCv: 'Αναλυτικό Βιογραφικό',
-//   shortCv: 'Βιογραφικό',
-//   title: 'Κωστής Λαζαρίδης',
-
-//   personalDescription: `
-//         Με λένε Αγγελική, είμαι δημιουργός ιστοσελίδων
-//         και τα τελευταία χρόνια ζω και εργάζομαι στο Βερολίνο.
-//         Έχω σπουδάσει Εφαρμοσμένα Μαθηματικα και Διοίκηση Επιχειρήσεων
-//         και στο παρελθόν έχω εργαστεί στο Online Marketing,
-//         ως Σύμβουλος Επιχειρήσεων αλλά και ως Software Engineer.
-//         Μου αρέσει να φτιάχνω εύχρηστες ιστοσελίδες με ωραίο design,
-//         χρησιμοποιώντας της τελευταίες τεχνολογίες.
-//       `,
-//   myFont: 'Helvetica'
-// }
