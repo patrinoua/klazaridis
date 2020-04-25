@@ -12,13 +12,13 @@ app.use(express.static(__dirname + '/public'))
 app.use(express.static(__dirname + '/projects'))
 app.use(
   bodyParser.urlencoded({
-    extended: false
+    extended: false,
   })
 )
 
 let myProjects = fs.readdirSync(__dirname + '/projects')
 
-var myProjectObjects = myProjects.map(function(project) {
+var myProjectObjects = myProjects.map(function (project) {
   return {
     dirName: project,
     heroku_url: require('./projects/' + project + '/project.json').heroku_url,
@@ -31,15 +31,15 @@ var myProjectObjects = myProjects.map(function(project) {
     description: require('./projects/' + project + '/project.json').description,
     tryMsg: require('./projects/' + project + '/project.json').tryMsg,
     codeMsg: require('./projects/' + project + '/project.json').codeMsg,
-    comment: require('./projects/' + project + '/project.json').comment
+    comment: require('./projects/' + project + '/project.json').comment,
   }
 })
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   res.render('projectData', {
     content: contentEn,
     myProjectObjects: myProjectObjects,
-    layout: 'welcome'
+    layout: 'welcome',
   })
 })
 
