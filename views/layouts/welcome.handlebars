@@ -30,86 +30,91 @@
     }
   }
 </style>
-<main><div class="container">
-  <div class="contained">
+<main>
+  <div class="container">
+    <div class="contained">
 
-  <div class="k-header">
-    <div class="k-background-image-container"></div>
-    <div class="k-center">
-      <div class="k-container">
-        <div class="k-name-and-image-container">
-          <div class="k-image-container-left">
-            <div class="k-image-container-left-up">
-              <div class="k-name k-name-up">
-                Kostis
+      <div class="k-header">
+        <div class="k-background-image-container"></div>
+        <div class="k-center">
+          <div class="k-container">
+            <div class="k-name-and-image-container">
+              <div class="k-image-container-left">
+                <div class="k-image-container-left-up">
+                  <div class="k-name k-name-up">
+                    Kostis
+                  </div>
+                </div>
+                <div class="k-image-container-left-down">
+                  <div class="k-name k-name-down">
+                    Lazaridis
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="k-image-container-left-down">
-              <div class="k-name k-name-down">
-                Lazaridis
+              <div class="k-image-container-right">
+                <div class="k-profil-photo">
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="k-image-container-right">
-            <div class="k-profil-photo">
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div id="projectsBlock">
-    <div class="k-description regularText">
-      PhD Candidate in Fluid Dynamics with a focus on Interface Phenomena for coupled Moving Boundaries problems. I
-      create
-      solutions in Mathematical Physics by utilizing my strong mathematical background. My current interests are
-      Mathematical formulation of Physical Processes, Multiscale Models and Computational Methods and Materials
-      Processing and Service.
-    </div>
-    <div class="headline2" style="box-shadow: none">
-      Projects
-    </div>
-    {{{body}}}
-    <div class="k-description regularText">
-      All research projects are tied up with experimental components, conducted at University of Kentucky, under the
-      research group of Prof. Dusan Sekulic. My research goals are focused on the accuracy of mathematical derivations,
-      implementations and their connection with physical meaning. This research work is supported by NASA Physical
-      Sciences Research Program award NNX17AB52G.
-    </div>
-  </div>
+      <div id="projectsBlock">
+        <div class="k-description regularText">
+          Ph.D. candidate in Mechanical Engineering specialized in Fluid Dynamics with a
+          particular interest on interface phenomena for coupled moving boundaries problems (wetting).
+          Kostis utilizes his mathematical background in Partial Differential Equations to solve problems in
+          Mathematical Physics.
+          His current interests include Mathematical formulation of physical processes, with particular interest in
+          multiscale
+          models and computational methods, and with applications in both, materials processing
+          and service.
+        </div>
+        <div class="headline2" style="box-shadow: none">
+          Projects
+        </div>
+        {{{body}}}
+        <div class="k-description regularText">
+          All research projects are tied up with experimental components, conducted at University of Kentucky, under the
+          research group of Prof. Dusan Sekulic. My research goals are focused on the accuracy of mathematical
+          derivations,
+          implementations and their connection with physical meaning. This research work is supported by NASA Physical
+          Sciences Research Program award NNX17AB52G.
+        </div>
+      </div>
 
-  <div id="contactBlock">
-    <div class="contactForm">
-      <div class="contactTitle">
-        {{content.contact}}
+      <div id="contactBlock">
+        <div class="contactForm">
+          <div class="contactTitle">
+            {{content.contact}}
+          </div>
+          <div> k.lazaridis@wsu.edu </div>
+          <div class="inARow">
+            <a class="bigIcon githubIcon" href="https://www.linkedin.com/in/konstantinos-lazaridis-05939869/"
+              target="_blank"><img src="assets/linkedInn.png" alt="linkedin" /> </a>
+            <a class="bigIcon githubIcon" href="https://www.researchgate.net/profile/Konstantinos_Lazaridis2"
+              target="_blank">
+              <img src="assets/RG.png" alt="researchGageIcon" />
+            </a>
+          </div>
+        </div>
       </div>
-      <div> k.lazaridis@wsu.edu </div>
-      <div class="inARow">
-        <a class="bigIcon githubIcon" href="https://www.linkedin.com/in/konstantinos-lazaridis-05939869/"
-          target="_blank"><img src="assets/linkedInn.png" alt="linkedin" /> </a>
-        <a class="bigIcon githubIcon" href="https://www.researchgate.net/profile/Konstantinos_Lazaridis2"
-          target="_blank">
-          <img src="assets/RG.png" alt="researchGageIcon" />
-        </a>
+      <div id="footer">
+        <a href="https://angelikipatrinou.com" target="_blank">© 2020 Angeliki Patrinou </a>
       </div>
+      <script>
+        $('.menuItem').click(function (e) {
+          e.preventDefault();
+          let navigationTarget = '#' + e.target.href.split("#").pop();
+          let navigationTargetSelector = $(navigationTarget);
+          $('html, body').animate({
+            scrollTop: $(navigationTarget).offset().top
+          }, "slow");
+        });
+      </script>
+
     </div>
   </div>
-  <div id="footer">
-    <a href="https://angelikipatrinou.com" target="_blank">© 2020 Angeliki Patrinou </a>
-  </div>
-  <script>
-    $('.menuItem').click(function (e) {
-      e.preventDefault();
-      let navigationTarget = '#' + e.target.href.split("#").pop();
-      let navigationTargetSelector = $(navigationTarget);
-      $('html, body').animate({
-        scrollTop: $(navigationTarget).offset().top
-      }, "slow");
-    });
-  </script>
-  
-  </div>
-</div>
 </main>
 
 </html>
